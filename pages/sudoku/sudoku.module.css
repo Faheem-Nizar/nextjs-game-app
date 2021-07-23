@@ -1,0 +1,92 @@
+.CentreingContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.SelectDifficulty{
+  display: flex;
+  text-align: left;
+  font-size: 60px;
+  height: 100px;
+  width: 400px;
+  padding: 5px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.gameInfo {
+  margin-left: 20%;
+  font-size: 20px;
+}
+.gameInfo:ol {
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.sudokuNumber {
+  height: 60px;
+  width: 50px;
+  font-size: 40px;
+  transition-duration: 0.4s;
+  background-color: #eee;
+  border: 1px solid #999;
+  text-align: center;
+}
+.sudokuNumber:hover {
+  background-color: #999;
+}
+.sudokuResultNumber {
+  height: 60px;
+  width: 50px;
+  font-size: 40px;
+  background-color: #eee;
+  border: 1px solid #999;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+.sudokuClear {
+  height: 60px;
+  width: 150px;
+  font-size: 40px;
+  transition-duration: 0.4s;
+}
+.sudokuClear:hover {
+  background-color: #999;
+}
+  
+.boardRow {
+  display: flex;
+}
+  
+.boardRow:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.sudokuSquare {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 44px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 44px;
+    transition-duration: 0.4s; 
+  }
+  .sudokuSquare:hover {
+    background-color: #aaa;
+  }
+  .fixedNumbers {
+    color: rgb(179, 13, 7);
+  }
+  .sudokuBox{
+    border: 2px solid #555;
+  }
