@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRecoilState } from 'recoil';
-import {Ustatus} from '../../components/UniversalComponents/statesInSudoku';
+import {Ustatus} from '../../components/statesInSudoku';
 import 'antd/dist/antd.css';
 import { Result, Button } from 'antd';
 import Link from 'next/link'
