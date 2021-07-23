@@ -13,7 +13,7 @@ Unumber,
 UnextStep,
 Ustatus,
 UcolChange,
-Uallow} from './UniversalComponents/statesInSudoku';
+Uallow} from '../../components/UniversalComponents/statesInSudoku';
 import 'antd/dist/antd.css';
 import CheckNumberCompleted from './confirmSudokuNumbers';
 
