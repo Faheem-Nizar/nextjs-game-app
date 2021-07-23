@@ -2,7 +2,7 @@ import React from "react";
 import styles from './sudoku.module.css';
 import {isSudokuTrue,
 Uactual,
-Usquares} from '../../components/UniversalComponents/statesInSudoku';
+Usquares} from '../../components/statesInSudoku';
 import { useRecoilState } from "recoil";
 function CheckNumberCompleted() {
     const [isSudoku] = useRecoilState(isSudokuTrue)
