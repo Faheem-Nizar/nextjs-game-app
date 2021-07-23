@@ -7,6 +7,7 @@ P2Name} from './StartGame';
 import 'antd/dist/antd.css';
 import styles from './tictactoe.module.css'
 import PageLayout from '../../components/layout';
+import Image from 'next/image'
  
 let num = 0;
 
@@ -92,7 +93,7 @@ function TicTacToeGame(props) {
           <div><button onClick={() => {
             jumpTo(num-1);
             }}>
-              <img src="/backImg.jpeg" height="50" width="50" alt="back"/>
+              <Image src="/backImg.jpeg" height="50" width="50" alt="back"/>
               </button></div>
           <div className={styles.winneralert}>{statusAlert}</div>
         </div>
