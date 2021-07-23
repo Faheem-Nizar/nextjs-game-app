@@ -2,3 +2,11 @@
     font-size: 70px;
     transform: translate(0%, 50%);
   }
+ .contentStyle {
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    background-color: #f44;
+    line-height: 130px;
+    padding: 5%;
+  }
