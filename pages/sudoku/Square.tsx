@@ -7,7 +7,7 @@ Unumber,
 UnextStep,
 UcolChange,
 Uallow,
-} from './UniversalComponents/statesInSudoku';
+} from '../../components/UniversalComponents/statesInSudoku';
 import styles from './sudoku.module.css'
 
 function Square(props) {
