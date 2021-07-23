@@ -5,12 +5,12 @@ easyFill,
 med,
 medFill,
 hard,
-hardFill} from '../../components/UniversalComponents/difficultyLevels';
+hardFill} from '../../components/difficultyLevels';
 import Link from 'next/link'
 import {Usquares,
 UfillPossibility,
 Uactual,
-UcolChange} from '../../components/UniversalComponents/statesInSudoku';
+UcolChange} from '../../components/statesInSudoku';
 import 'antd/dist/antd.css';
 import { Layout, Menu } from 'antd';
 import PageLayout from '../../components/layout'; 
