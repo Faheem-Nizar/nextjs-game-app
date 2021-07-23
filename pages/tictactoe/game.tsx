@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Board from './board';
-import findWinner from './fnc_findWinner';
+import Board from '../../components/board';
+import findWinner from '../../components/fnc_findWinner';
 import { useRecoilState } from 'recoil';
 import {P1Name,
 P2Name} from './StartGame';
