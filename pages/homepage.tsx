@@ -9,7 +9,7 @@ export default function Homepage() {
       <h3 className={styles.contentStyle} >
         <div className={styles.frontPage}>
           
-            WELCOME TO THE GAME SHACK
+            WELCOME TO THE GAME STORE
           
         </div>
       </h3>
